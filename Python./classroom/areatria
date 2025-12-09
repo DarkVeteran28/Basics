@@ -1,0 +1,8 @@
+import math
+
+a=float(input("Enter the side 1 of triangle"))
+b=float(input("Enter the side 1 of triangle"))
+c=float(input("Enter the side 1 of triangle"))
+s=(a+b+c)/2
+area=math.pow((s*(s-a)*(s-b)*(s-c)),0.5)
+print(f"Area is:{area}")

@@ -1,0 +1,6 @@
+print('Enter the basic pay: ')
+bp=int(input())
+da=float((input("Enter the DA to be offered"))/100)
+hra=float((input("Enter the HRA to be offered"))/100)
+salary= bp +(bp * da)+(bp*hra)-(bp*0.12)
+print(f"The salary after deductions and allowances is {salary}")

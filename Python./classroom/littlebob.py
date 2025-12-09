@@ -1,0 +1,7 @@
+moneyinpocket=int(input("Enter the money you want little bob to have: "))
+chococost=int(input("Enter the price of one choclate: "))
+numchoco=int(moneyinpocket/chococost)
+print('For how many wrappers returned do you wish little bob to get one more choclate')
+wrappervalue=int(input())
+numchoco=numchoco+int(numchoco/wrappervalue)
+print(f"Number of choclate bob eats: {numchoco}")
